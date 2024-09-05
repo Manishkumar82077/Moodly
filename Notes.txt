@@ -1,0 +1,1 @@
+All the static asset are store in the /public folder.
