@@ -1,49 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moodly
+
+Moodly is a mood-tracking web application built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), and [Firebase](https://firebase.google.com/). Users can log their mood daily and view trends in a calendar format.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Make sure you have the following installed:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Node.js](https://nodejs.org/) (v14.x or higher)
+- [Firebase](https://firebase.google.com/) for authentication and database
+- [Next.js](https://nextjs.org/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository:**
 
-## Learn More
+   ```bash
+   git clone https://github.com/yourusername/moodly.git
+   cd moodly
+   ``` 
+2. **Install dependencies::**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Set up Firebase:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    - Go to the Firebase console.
+    - Create a new project, and set up Authentication and Firestore.
+    - Add your Firebase configuration to a .env.local file in the root directory:
 
-## Deploy on Vercel
+    ```bash
+    NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+    NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
+    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+    NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Running the Development Server :
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+- To start the development server, run:
 
-## Configuration
+    ```bash
+    npm run dev
+    ```
 
-You can configure environment variables by creating a `.env.local` file in the root directory:
-
-```bash
-NEXT_PUBLIC_API_KEY=your_api_key
-NEXT_PUBLIC_BACKEND_URL=https://your-backend-api.com
-
-```
-
-## Developed by Manish
+### Developed by Manish Kumar 
