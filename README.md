@@ -1,12 +1,49 @@
 # Moodly
 
-Moodly is a mood-tracking web application built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), and [Firebase](https://firebase.google.com/). Users can log their mood daily and view trends in a calendar format.
+# 🎭 Moodly - Your Daily Mood Tracker
 
-## Getting Started
+**Moodly** is a modern mood-tracking web application that empowers users to log their emotions, analyze emotional trends, and gain deeper self-awareness through visual insights. Built with **Next.js**, **Tailwind CSS**, and **Firebase**, it offers a smooth, responsive experience across all devices.
 
-### Prerequisites
+---
 
-Make sure you have the following installed:
+## 🔗 Live Demo
+
+👉 [Click here to explore Moodly](https://moodly-five.vercel.app/)
+
+---
+
+## 🖼️ Screenshot
+
+> Add a screenshot in the repository at `screenshot/moodly.png` to display below.
+
+![Moodly Preview](screenshot/moodly.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js** – Server-side rendering and routing
+- **Tailwind CSS** – Utility-first responsive UI design
+- **JavaScript** – Core application logic
+- **Node.js & Express.js** – Backend API handling
+- **Firebase** – Authentication and real-time database
+
+---
+
+## 🌟 Features
+
+- 📅 **Daily Mood Logging** – Track your mood in a simple, intuitive interface
+- 📊 **Mood Analytics** – View trends and emotional patterns through clean data visualizations
+- 🔐 **Secure Authentication** – Login and signup with Firebase Authentication
+- 📱 **Responsive Design** – Fully functional across mobile, tablet, and desktop devices
+- ⚡ **Optimized Performance** – Fast loading and smooth interactions
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
 
 - [Node.js](https://nodejs.org/) (v14.x or higher)
 - [Firebase](https://firebase.google.com/) for authentication and database
