@@ -15,10 +15,10 @@
 ## 🖼️ Screenshot
 
 > Add a screenshot in the repository at `screenshot/moodly.png` to display below.
-
-![Moodly Preview](screenshot/moodly.png)
-
----
+![Moodly Preview](screenshot/moodly1.png)
+![Moodly Preview](screenshot/moodly2.png)
+![Moodly Preview](screenshot/moodly3.png)
+ ---
 
 ## 🛠️ Tech Stack
 
